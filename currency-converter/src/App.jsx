@@ -17,7 +17,6 @@ function App() {
   }
 
   const swapValue = () => {
-    console.log('Swap Clicked');
     setToAmt(fromAmt);
     setFromAmt(toAmt);
     setFromType(toType);

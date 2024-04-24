@@ -8,7 +8,6 @@ function App() {
   const [charRequired, setCharRequired] = useState(false);
   const passRef = useRef(null);
 
-  console.log('Rendered', length);
 
   const generatePassword = useCallback(() => {
     let str = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
