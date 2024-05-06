@@ -4,13 +4,13 @@ import Icon from '@mui/material/Icon';
 
 function StoriesComponent({label, logo}) {
   return (
-    <div>
+    <div className="cursor-pointer" >
       <div className='category-outer-circle flex justify-center items-center'>
-        <div className='category-inner-circle'>
-          <Icon>star</Icon>
+        <div className='category-inner-circle flex justify-center items-center'>
+          <Icon className='text-white'>{logo}</Icon>
         </div>
       </div>
-      <p>{label}</p>
+      <p className='text-center font-semibold'>{label}</p>
     </div>
   )
 }
