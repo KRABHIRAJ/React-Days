@@ -92,7 +92,7 @@ const storiesData = {
       {
         title: "Barbell",
         text: `In 1928 Kasper Berg of Berg Barbell began making "the first modern Olympic barbell." The Berg Barbell was used in the 1928 Amsterdam Olympic games and soon thereafter York Barbell company, Jackson Barbell and others began copying, thereby standardizing the Berg Olympic barbell.`,
-        image: `/images/fitness2.jpg`,
+        image: `/images/fitness 2.jpg`,
         bgColor: "#F58529",
         type: "titleImageTextPost",
       },
